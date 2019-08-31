@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href = "Style/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Exo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Resources/bulb.png">
+    <meta name="theme-color" content="rgb(39, 72, 91)" />
+    <title>Procharge</title>
+</head>
+<body id="body">
+     <div class="Details" id="BasicDetails">
+
+        <div class="DetailsBackground" onclick="showingBasicDetails=true; ShowBasicDetails();"></div>
+	  <div class="DetailsContent">
+	   
+	   <div> <div class="imgcontainer"  style="background-image: url('Resources/BestSellers/product1.png');" ></div></div>
+	   
+	  <div style="text-align: center">
+	  <h2>Basic Version</h2>
+	  <div style="text-align: left" class="DetailsDetail">
+	  
+	  <div>
+	  <p class="detail"><b>Cost:</b></p>
+	  <p class="detail"><b>Charge Time:</b></p>
+      <p class="detail"><b>Charge Phone:</b></p>
+      <p class="detail"><b>Charge Cycle:</b></p>
+	  </div>
+	  
+	  <div>
+	  <p class="detail">500 JMD</p>
+	  <p class="detail">1 Hour</p>
+      <p class="detail">1 Hour 20 mins</p>
+      <p class="detail">2 Full Cycles</p>
+	  </div>
+	    
+	  </div>
+    </div>
+   
+	  </div>
+</div>
+
+<div class="Details" id="ProDetails">
+
+        <div class="DetailsBackground" onclick="showingProDetails=true; ShowProDetails();"></div>
+	  <div class="DetailsContent">
+	   
+	   <div> <div class="imgcontainer"  style="background-image: url('Resources/BestSellers/product2.png');" ></div></div>
+	   
+	  <div style="text-align: center">
+	  <h2>Pro Version</h2>
+	  <div style="text-align: left" class="DetailsDetail">
+	  
+	  <div>
+	  <p class="detail"><b>Cost:</b></p>
+	  <p class="detail"><b>Charge Time:</b></p>
+      <p class="detail"><b>Charge Phone:</b></p>
+      <p class="detail"><b>Charge Cycle:</b></p>
+	  </div>
+	  
+	  <div>
+	  <p class="detail">1000 JMD</p>
+	  <p class="detail">1 Hour</p>
+      <p class="detail">1 Hour 20 mins</p>
+      <p class="detail">3 Full Cycles</p>
+	  </div>
+	    
+	  </div>
+    </div>
+   
+	  </div>
+</div>
+
+    <header id="H">
+            <div class="logo"> <a href=""><img src="Resources/bulb.png" id="bulb" alt=""> <img src="Resources/procharg.png" alt=""> </a> </div>
+        <nav>
+            
+            <ul class="links"><!--onclick="ScrollingTo('About')"-->
+                <li><a href="" class="link" ></a></li>
+                <li><a href="" class="link" ></a></li>
+                <li><a href="About" class="link" >About</a></li>
+                <li><a href="Products" class="link" >Products</a></li>
+                <li><a href="Contacts" class="link" >Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main">
+    <div class="top" id="top">
+        <div class="background"></div>
+        <div class="mask" id="mask"></div>
+    <div class="topinfo">
+            <br><br>
+                <h1>Powerful and long lasting hand made powerbanks</h1>
+                <br>
+                <br>
+                <p>Cheaper than your average power bank with long battery life and very eco friendly</p>
+        
+                <br><br>
+                <br>
+
+<div>
+<div class="fa-container">
+                   <a href="https://instagram.com/procharge.inc?igshid=12tjcpr3ytbra" target="none" class="fa fa-instagram fa-5x"></a>
+            </div>
+			
+            </div>
+                   <img src="Resources/ArrowDown.png" class="bounce" alt="">
+
+				
+            </div>
+    </div>
+
+
+    <div class="middle">
+
+
+    
+    <section class="About" id="About">
+
+            <h2>About</h2>
+
+            <div class="ProductContainer">
+
+				<div class="AboutContent">
+				
+                <p>
+				Welcome to Procharge Incorporated. The aim of this company is to provide a long lasting peice of technology which aims to power you devices right through your busy day. 
+			
+				Procharge consists of several models which has modification enough to satisfy your needs.
+				
+				With all of this Technology it all comes down to a low price to ensure everyone may have a chance to purchase out products.
+				<br>
+				<br>
+
+				</p>
+                        
+                            </div>
+           
+            </div>
+
+        </section>
+    
+        
+        <section class="Catalog" id="Products">
+
+            <h2>Products</h2>
+
+            <div class="ProductContainer">
+
+                    <div class="product">
+                            <div class="p">
+                                <div class="imgcontainer"  style="background-image: url('Resources/BestSellers/product1.png');" ></div>
+                               
+                                
+                                <div class="producttext">
+                                    <h4>Basic Version</h4>
+                                    <p class="price">$500 JMD</p>
+                                    <button onclick="showingBasicDetails=false; ShowBasicDetails();" class="viewdetails">View Details</button>
+                                </div>
+
+                        </div>
+                    </div>    
+                    <div class="product">
+                        <div class="p">
+                            <div class="imgcontainer" style="background-image: url('Resources/BestSellers/product2.png');"></div>
+                           
+                            
+                            <div class="producttext">
+                                <h4>Pro Version</h4>
+                                <p class="price">$1000 JMD</p>
+                                <button onclick="showingProDetails=false; ShowProDetails();" class="viewdetails">View Details</button>
+                            </div>
+
+                    </div>
+                </div>                  
+            </div>
+
+           
+            
+        </section>
+        
+
+            <footer id="Contacts">
+                
+                 <h3>CONTACT US TO ORDER</h3> 
+                 <div class="space"></div>
+                 <hr>
+                 <div class="space"></div>
+                <div class="icons">
+                <a href="https://instagram.com/procharge.inc?igshid=12tjcpr3ytbra" target="none" class="fa fa-instagram fa-3x"></a>
+            </div>
+            <div class="EmailAndPhone">
+            <a href=""><p>1-876-452-6562</p></a> <a href=""><p>daneladams21@gmail.com</p></a>
+             </div>
+            </footer>
+           
+
+    </div>
+
+</main>
+
+    
+<script src="JavaScript/JavaScript.js"></script>
+</body>
+</html>
