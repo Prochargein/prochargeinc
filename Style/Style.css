@@ -43,6 +43,11 @@ header{
     position: fixed;
     width: 100%;
     z-index: 2;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
 }
 nav{
     display: flex;
@@ -97,6 +102,7 @@ min-height: 650px;
 justify-content: center;
 align-items: center;
 position: relative;
+
 }
 .topinfo{
     flex: 1;
@@ -276,7 +282,12 @@ footer hr{
     padding: 5px;
 }
 .fa{
-	color:white;
+    color:white;
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 .fa{
@@ -310,6 +321,11 @@ footer hr{
   height: 60px;
   position: relative;
   top:60px;
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
 }
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -391,7 +407,8 @@ footer hr{
 	border:none;
 }
 .DetailsDetail{
-	display:flex;
+    display:flex;
+    position: relative;
 }
 .DetailsDetail div{
     display: flex;

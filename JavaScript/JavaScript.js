@@ -51,14 +51,14 @@ function scrollfunction(){
   console.log(derivedMovement);
   derivedTransparency = (window.pageYOffset/(body.offsetHeight));
 
-  //top.style.top = `${derivedMovement*400}px`;
+  top.style.top = `${derivedMovement*300}px`;
  
   
   if(derivedTransparency>initTransparency){
    // mask.style.backgroundColor = `rgba(0,0,0,${derivedTransparency})`;
   }
   else{
-  // mask.style.backgroundColor = `rgba(0,0,0,${initTransparency})`;
+   //mask.style.backgroundColor = `rgba(0,0,0,${initTransparency})`;
   }
   
     if(window.pageYOffset>h.offsetHeight){
