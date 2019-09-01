@@ -43,15 +43,15 @@ function scrollfunction(){
   
   var derivedMovement = 0.0;
 
-  derivedMovement = (window.pageYOffset/(body.offsetHeight));
+  //derivedMovement = (window.pageYOffset/(body.offsetHeight));
 
     //sec1.style.bottom = `${((window.pageYOffset-body.offsetHeight)/((body.offsetHeight)))*100}px`;
 
 
-  console.log(derivedMovement);
-  derivedTransparency = (window.pageYOffset/(body.offsetHeight));
+ // console.log(derivedMovement);
+ // derivedTransparency = (window.pageYOffset/(body.offsetHeight));
 
-  top.style.top = `${derivedMovement*300}px`;
+  //top.style.top = `${derivedMovement*400}px`;
  
   
   if(derivedTransparency>initTransparency){
